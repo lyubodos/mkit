@@ -9,8 +9,6 @@ import Favorites from "../Favorites/Favorites";
 
 export default function Home() {
 
-
-
   return (
     <Fragment>
     <section className={classes.hero}>
