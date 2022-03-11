@@ -1,0 +1,29 @@
+.header {
+  background-color: #F8F9FA;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 30px;
+}
+
+.header p {
+    margin:0;
+    padding-top: 10px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.header input {
+  border: 1px solid black;
+  border-radius: 3px;
+  height: 1.875rem;
+  width: 15.625rem;
+  margin-right: 10px;
+  font-size: 14px;
+  padding-left: 10px;
+}
+
+
