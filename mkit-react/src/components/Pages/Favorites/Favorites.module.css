@@ -1,0 +1,16 @@
+.favorites{
+    text-align: center;
+    margin: 10px auto;
+
+}
+
+.favorites h1{
+    font-size: 40px;
+}
+
+.favorites-movies{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    list-style: none;
+}
