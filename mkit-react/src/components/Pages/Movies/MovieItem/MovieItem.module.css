@@ -1,0 +1,43 @@
+.movie{
+    display: flex;
+    margin: 50px 100px;
+    font-family:'Times New Roman', Times, serif;
+    position: relative;
+}
+
+.movie-desc{
+    text-align: left;
+    margin-left: 40px;
+
+}
+
+.movie-desc h2{
+    margin: 0;
+}
+
+.movie-desc p{
+    padding-right: 200px;
+}
+
+.movie-desc button {
+    border: 1px solid #55A84F;
+    border-radius: 6px;
+    color: #55A84F;
+    display: block;
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 11px 25px;
+    position: absolute;
+    bottom: 0;
+    font-size: 18px;
+}
+
+.movie-desc button:hover{
+    color: #fff;
+    background-color: #55A84F;
+}
+
+.movie-desc button:active{
+    color: #fff;
+    background-color: #7baa78;
+}
