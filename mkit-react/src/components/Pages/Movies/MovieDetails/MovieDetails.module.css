@@ -1,0 +1,9 @@
+.details{
+    margin: 50px 100px;
+}
+
+.details textarea{
+    padding: 10px;
+    height: 150px;
+    width: 800px;
+}

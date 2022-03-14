@@ -5,6 +5,14 @@
     position: relative;
 }
 
+.movie h2:hover{
+    color: red
+}
+
+.movie h2:active{
+    color: rgb(202, 123, 123)
+}
+
 .movie img {
     width: 200px;
     height: 300px;
