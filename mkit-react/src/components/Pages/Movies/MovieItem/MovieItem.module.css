@@ -5,10 +5,14 @@
     position: relative;
 }
 
+.movie img {
+    width: 200px;
+    height: 300px;
+}
+
 .movie-desc{
     text-align: left;
     margin-left: 40px;
-
 }
 
 .movie-desc h2{

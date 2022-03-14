@@ -9,7 +9,7 @@ const DUMMY_DATA = [
         name: "Batman Begins",
         year: 2005,
         category: "action/superhero",
-        description: "Batman Begins is a 2005 superhero film directed by Christopher Nolan and written by Nolan and David S. Goyer. Based on the DC Comics character Batman, it stars Christian Bale as Bruce Wayne / Batman, with Michael Caine, Liam Neeson, Katie Holmes, Gary Oldman, Cillian Murphy, Tom Wilkinson, Rutger Hauer, Ken Watanabe, and Morgan Freeman in supporting roles. The film reboots the Batman film series, telling the origin story of Bruce Wayne from the death of his parents to his journey to become Batman and his fight to stop Ra's al Ghul and the Scarecrow from plunging Gotham City into chaos. Nolan and Goyer began development on the film in early 2003. Aiming for a darker, more realistic tone compared to the previous films, a primary goal for their vision was to engage the audience's emotional investment in both the Batman and Bruce Wayne identities of the lead character. The film, which was principally shot in the United Kingdom, Iceland and Chicago, relied heavily on traditional stunts and miniature effects, with computer-generated imagery being used in a minimal capacity compared to other action films. Comic book storylines such as The Man Who Falls, Batman: Year One and Batman: The Long Halloween served as inspiration.",
+        description: "Batman Begins is a 2005 superhero film directed by Christopher Nolan and written by Nolan and David S. Goyer. Based on the DC Comics character Batman, it stars Christian Bale as Bruce Wayne / Batman, with Michael Caine, Liam Neeson, Katie Holmes, Gary Oldman, Cillian Murphy, Tom Wilkinson, Rutger Hauer, Ken Watanabe, and Morgan Freeman in supporting roles. The film reboots the Batman film series, telling the origin story of Bruce Wayne from the death of his parents to his journey to become Batman and his fight to stop Ra's al Ghul and the Scarecrow from plunging Gotham City into chaos. ",
         imageUrl: "https://upload.wikimedia.org/wikipedia/en/thumb/a/af/Batman_Begins_Poster.jpg/220px-Batman_Begins_Poster.jpg",
         duration: 140,
         movieLink: "https://www.imdb.com/title/tt0372784"
@@ -21,7 +21,7 @@ const DUMMY_DATA = [
         year: 2011,
         category: "action/superhero",
         description: "Captain America: The First Avenger is a 2011 American superhero film based on the Marvel Comics character Captain America. Produced by Marvel Studios and distributed by Paramount Pictures,[N 1] it is the fifth film in the Marvel Cinematic Universe (MCU). The film was directed by Joe Johnston, written by Christopher Markus and Stephen McFeely, and stars Chris Evans as Steve Rogers / Captain America alongside Tommy Lee Jones, Hugo Weaving, Hayley Atwell, Sebastian Stan, Dominic Cooper, Neal McDonough, Derek Luke, and Stanley Tucci. During World War II, Steve Rogers, a frail man, is transformed into the super-soldier Captain America and must stop the Red Skull (Weaving) from using the Tesseract as an energy source for world domination",
-        imageUrl: "https://upload.wikimedia.org/wikipedia/en/3/37/Captain_America_The_First_Avenger_poster.jpg",
+        imageUrl: "https://pisces.bbystatic.com/image2/BestBuy_US/images/products/1663/1663837_so.jpg",
         duration: 124,
         movieLink: "https://www.imdb.com/title/tt0458339"
     },
