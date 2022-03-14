@@ -1,9 +1,6 @@
-import {Link} from 'react-router-dom';
-import MovieItem from './MovieItem/MovieItem';
+import {configureStore ,createSlice} from "@reduxjs/toolkit";
 
-import classes from "./Movies.module.css";
-
-const DUMMY_DATA = [
+const MOVIES_DATA = [
     {
         id: "m1",
         name: "Batman Begins",
@@ -37,17 +34,24 @@ const DUMMY_DATA = [
         movieLink: "https://www.imdb.com/title/tt1228705"
     },
 
-]
+];
 
-export default function Movies() {
-
-  return (
-    <section className={classes.movies}>
-        <h2 className={classes.movies_title}>MK It Movies</h2>
-        {DUMMY_DATA.map(movie => {
-            return  <MovieItem key={movie.id} {...movie} />
-            
-        })}
-    </section>
-  )
+const moviesInitialState ={
+    items: MOVIES_DATA,
+    favorites: []
 }
+
+const movieSlice = createSlice({
+    name: 'movies',
+    initialState: moviesInitialState,
+    reducers: {
+        addToFavorites () {},
+        removeFromFavorites() {}
+    }
+});
+
+const store = configureStore({
+    reducer: {'movies': movieSlice.reducer}
+});
+
+export default store;
